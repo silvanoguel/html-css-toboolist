@@ -108,3 +108,33 @@ main {
 .info-section {
     list-style-type: none;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+}
+
+.task-title {
+    list-style-type: none;
+}
+
+.check {
+    color: green;
+     border-radius: 50%;
+      padding: 2px;
+      border: 2px solid green;
+      color: green;
+      text-align: center;
+  }
+
+  .cross {
+    color: red;
+     border-radius: 50%;
+      padding: 2px;
+      border: 2px solid red;
+      color: red;
+      text-align: center;
+  }
