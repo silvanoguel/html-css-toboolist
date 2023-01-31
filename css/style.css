@@ -1,6 +1,8 @@
 * {
     margin: 0;
-}
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -26,6 +28,13 @@ body {
     vertical-align: middle;
 }
 
+.nav-section{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    margin: 10px auto;
+}
 nav {
     padding: 3px;
     margin-bottom: 3px;
@@ -124,6 +133,9 @@ main {
 .info-section {
     list-style-type: none;
     padding: 20px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container {
@@ -136,6 +148,7 @@ main {
 
 .task-title {
     list-style-type: none;
+    padding: 10px;
 }
 
 .check {
