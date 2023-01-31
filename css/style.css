@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-logo{
     height: 50px;
     vertical-align: middle;
@@ -12,4 +16,95 @@ header{
     display: inline-block;
     color: black;
     vertical-align: middle;
+}
+main {
+    background-color: rosybrown;
+}
+.task{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.section{
+    color: lightgrey;
+    background-color: white;
+    border-color: lightgrey;
+    border-radius: 5px;
+}
+
+.editorial{
+    display: inline-block;
+    color: white;
+    background-color: lightskyblue;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+.q1{
+    display: inline-block;
+    color: white;
+    background-color: purple;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+.recruiting{
+    display: inline-block;
+    color: white;
+    background-color: green;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+.mobile{
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+.website{
+    display: inline-block;
+    color: white;
+    background-color: purple;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+.sales{
+    display: inline-block;
+    color: white;
+    background-color: lightgreen;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+.info-section {
+    list-style-type: none;
 }
