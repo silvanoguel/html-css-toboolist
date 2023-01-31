@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
 }
 
 .header-logo{
@@ -10,6 +15,8 @@ body {
 header{
     height: 80px;
     line-height: 20px;
+    background-color: white;
+    vertical-align: middle;
 }
 
 .header-title {
@@ -17,9 +24,17 @@ header{
     color: black;
     vertical-align: middle;
 }
-main {
-    background-color: rosybrown;
+
+nav {
+    padding: 3px;
+    margin-bottom: 3px;
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+  }
+
 .task{
     color: white;
     background-color: blue;
