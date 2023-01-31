@@ -12,11 +12,12 @@ body {
     vertical-align: middle;
 
 }
-header{
+.header{
     height: 80px;
-    line-height: 20px;
+    line-height: 80px;
     background-color: white;
     vertical-align: middle;
+    padding-left: 10px;
 }
 
 .header-title {
@@ -122,6 +123,7 @@ main {
 
 .info-section {
     list-style-type: none;
+    padding: 20px;
 }
 
 .container {
