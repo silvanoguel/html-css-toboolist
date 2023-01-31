@@ -1,0 +1,15 @@
+.header-logo{
+    height: 50px;
+    vertical-align: middle;
+
+}
+header{
+    height: 80px;
+    line-height: 20px;
+}
+
+.header-title {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+}
